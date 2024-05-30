@@ -1,0 +1,14 @@
+{
+  "name": "basic-react",
+  "version": "1.0.0",
+  "description": "\"Practicing react without create-react-app\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"jest\""
+  },
+  "author": "\"Yoginee\"",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
