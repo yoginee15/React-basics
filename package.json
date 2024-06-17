@@ -2,13 +2,25 @@
   "name": "basic-react",
   "version": "1.0.0",
   "description": "\"Practicing react without create-react-app\"",
-  "main": "index.js",
   "scripts": {
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html",
     "test": "\"jest\""
   },
   "author": "\"Yoginee\"",
   "license": "ISC",
+  "browserslist": [
+    "last 2 versions "
+  ],
   "devDependencies": {
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "browserlist": "^1.0.1",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.3.1"
   }
 }

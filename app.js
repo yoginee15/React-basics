@@ -1,4 +1,9 @@
-  const parent = React.createElement(
+import React from "react";
+import ReactDOM from "react-dom"
+import Login from "./src/components/Login";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+const parent = React.createElement(
     "div",
     { id: "parent", className: "myDiv" },
     React.createElement("div", { id: "child" }, [
@@ -23,3 +28,7 @@ console.log("parent", parent); //
 //   body.appendChild(div)
 //   const root = ReactDOM.createRoot(div)
 //   root.render()
+
+const container = document.getElementById("root");
+const root = ReactDOM.createRoot(container);
+root.render(<Login />);
